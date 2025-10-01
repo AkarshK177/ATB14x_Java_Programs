@@ -13,8 +13,6 @@ public class Lab005_Comments {
 //		This is a comment
 		System.out.println("Hello");
 
-		
-		
 	}
 
 }

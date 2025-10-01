@@ -2,26 +2,22 @@
 package ex_04_Operators;
 
 public class Lab042_Interview_Concat_Plus {
-    public static void main(String[] args) {
-        //  + ->
-        int a = 10;
-        int b = 20;
-        System.out.println(a+b);
+	public static void main(String[] args) {
+		// + ->
+		int a = 10;
+		int b = 20;
+		System.out.println(a + b);
 
-        // + -> String -> Concatenation
-        String first_name = "Akarsh";
-        String last_name = "Katiyar";
-        System.out.println(first_name+last_name);
+		// + -> String -> Concatenation
+		String first_name = "Akarsh";
+		String last_name = "Katiyar";
+		System.out.println(first_name + last_name);
 //        System.out.println(first_name-last_name);
 //        System.out.println(first_name*last_name);
 //        System.out.println(first_name/last_name);
 
-        // + -> behave differently with the data type.
-        // + -> operator overloading
+		// + -> behave differently with the data type.
+		// + -> operator overloading
 
-
-
-
-
-    }
+	}
 }

@@ -4,7 +4,7 @@ public class Lab010_Multiple_Main {
 	public static void main() {
 		System.out.println("First Main Method");
 	}
-	
+
 	public static void main(String[] args) {
 		System.out.println("Second Main Method");
 	}

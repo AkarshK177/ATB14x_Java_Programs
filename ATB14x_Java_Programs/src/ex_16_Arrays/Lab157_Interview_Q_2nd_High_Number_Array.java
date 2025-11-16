@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Lab157_Interview_Q_2nd_High_Number_Array {
     public static void main(String[] args) {
-        int[] numbers = {12, 34, 10, 1, 100, 3, 4, 32};//100,34
+        int[] numbers = {12, 100, 34, 10, 1, 100, 3, 4, 100};//100,34
        
         // with In-built
         Arrays.sort(numbers);
@@ -37,11 +37,11 @@ public class Lab157_Interview_Q_2nd_High_Number_Array {
 
             if (num > highest) {
                 secondHighest = highest;
-                highest = num;
-            } else if (num > secondHighest && num != highest) {
-
-                secondHighest = num;
-            }
+                highest = num; }
+//            } else if (num > secondHighest && num != highest) {
+//
+//                secondHighest = num;
+//            }
 
 
         }
